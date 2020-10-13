@@ -1,0 +1,113 @@
+package View;
+
+public class Login extends javax.swing.JFrame {
+
+    boolean getSenha;
+
+ 
+    public Login() {
+        initComponents();
+    }
+    // <editor-fold defaultstate="collapsed" desc="Generated Code">                          
+    private void initComponents() {
+
+        jLabel3TextLogin = new javax.swing.JLabel();
+        TextUsuario = new javax.swing.JTextField();
+        jLabel4Senha = new javax.swing.JLabel();
+        jLabel5TextUsuario = new javax.swing.JLabel();
+        Senha = new javax.swing.JPasswordField();
+        jLabel2Painel = new javax.swing.JLabel();
+        jLabelFundo = new javax.swing.JLabel();
+
+        setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jLabel3TextLogin.setBackground(new java.awt.Color(255, 255, 255));
+        jLabel3TextLogin.setFont(new java.awt.Font("Javanese Text", 0, 16)); // NOI18N
+        jLabel3TextLogin.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel3TextLogin.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel3TextLogin.setText("Login");
+        getContentPane().add(jLabel3TextLogin, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 100, 90, 20));
+
+        TextUsuario.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                TextUsuarioActionPerformed(evt);
+            }
+        });
+        getContentPane().add(TextUsuario, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 190, 160, -1));
+
+        jLabel4Senha.setFont(new java.awt.Font("Javanese Text", 0, 14)); // NOI18N
+        jLabel4Senha.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel4Senha.setText("Senha");
+        getContentPane().add(jLabel4Senha, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 220, -1, -1));
+
+        jLabel5TextUsuario.setFont(new java.awt.Font("Javanese Text", 0, 14)); // NOI18N
+        jLabel5TextUsuario.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel5TextUsuario.setText("Usuario");
+        getContentPane().add(jLabel5TextUsuario, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 160, -1, -1));
+
+        Senha.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                SenhaActionPerformed(evt);
+            }
+        });
+        getContentPane().add(Senha, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 250, 160, -1));
+
+        jLabel2Painel.setIcon(new javax.swing.ImageIcon(getClass().getResource("/View/Imagens/painel-login.png"))); // NOI18N
+        getContentPane().add(jLabel2Painel, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 70, 330, 340));
+
+        jLabelFundo.setIcon(new javax.swing.ImageIcon(getClass().getResource("/View/Imagens/aab8b888-e24f-43af-83db-cc4cd88de9b3.jpeg"))); // NOI18N
+        getContentPane().add(jLabelFundo, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 699, 600));
+
+        pack();
+    }// </editor-fold>                        
+
+    private void TextUsuarioActionPerformed(java.awt.event.ActionEvent evt) {                                            
+     
+    }                                           
+
+    private void SenhaActionPerformed(java.awt.event.ActionEvent evt) {                                      
+     
+    }                                     
+
+
+    public static void main(String args[]) {
+
+        try {
+            for (javax.swing.UIManager.LookAndFeelInfo info : javax.swing.UIManager.getInstalledLookAndFeels()) {
+                if ("Nimbus".equals(info.getName())) {
+                    javax.swing.UIManager.setLookAndFeel(info.getClassName());
+                    break;
+                }
+            }
+        } catch (ClassNotFoundException ex) {
+            java.util.logging.Logger.getLogger(Login.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+        } catch (InstantiationException ex) {
+            java.util.logging.Logger.getLogger(Login.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+        } catch (IllegalAccessException ex) {
+            java.util.logging.Logger.getLogger(Login.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+        } catch (javax.swing.UnsupportedLookAndFeelException ex) {
+            java.util.logging.Logger.getLogger(Login.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+        }
+
+
+        
+        java.awt.EventQueue.invokeLater(new Runnable() {
+            public void run() {
+                new Login().setVisible(true);
+            }
+        });
+    }
+
+    // Variables declaration - do not modify                     
+    private javax.swing.JPasswordField Senha;
+    private javax.swing.JTextField TextUsuario;
+    private javax.swing.JLabel jLabel2Painel;
+    private javax.swing.JLabel jLabel3TextLogin;
+    private javax.swing.JLabel jLabel4Senha;
+    private javax.swing.JLabel jLabel5TextUsuario;
+    private javax.swing.JLabel jLabelFundo;
+    // End of variables declaration                   
+
+ 
+}

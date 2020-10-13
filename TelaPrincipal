@@ -1,0 +1,107 @@
+package Menu;
+
+public class Principal extends javax.swing.JFrame {
+
+    public Principal() {
+        initComponents();
+    }
+
+    @SuppressWarnings("unchecked")
+    // <editor-fold defaultstate="collapsed" desc="Generated Code">                          
+    private void initComponents() {
+
+        jLabel2 = new javax.swing.JLabel();
+        jLabel3 = new javax.swing.JLabel();
+        jButton1 = new javax.swing.JButton();
+        jButton2 = new javax.swing.JButton();
+        jButton3 = new javax.swing.JButton();
+        jButton4 = new javax.swing.JButton();
+        jButton5 = new javax.swing.JButton();
+        FundoMenu = new javax.swing.JLabel();
+        jMenuBar1 = new javax.swing.JMenuBar();
+        jMenu1Cadastro = new javax.swing.JMenu();
+        jMenuItem1Perfil = new javax.swing.JMenuItem();
+        jMenu2Baixar = new javax.swing.JMenu();
+
+        setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/View/Icons/documents (1).png"))); // NOI18N
+        getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 60, -1, -1));
+
+        jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/View/Icons/documents (1).png"))); // NOI18N
+        getContentPane().add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 60, 40, -1));
+
+        jButton1.setFont(new java.awt.Font("Javanese Text", 0, 14)); // NOI18N
+        jButton1.setText("Musica");
+        getContentPane().add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 100, -1, 40));
+
+        jButton2.setFont(new java.awt.Font("Javanese Text", 0, 14)); // NOI18N
+        jButton2.setText("Albuns");
+        getContentPane().add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 100, -1, 40));
+
+        jButton3.setFont(new java.awt.Font("Javanese Text", 0, 14)); // NOI18N
+        jButton3.setText("Musicas á catalogar");
+        getContentPane().add(jButton3, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 220, -1, 40));
+
+        jButton4.setFont(new java.awt.Font("Javanese Text", 0, 14)); // NOI18N
+        jButton4.setText("Albuns Incopletos");
+        getContentPane().add(jButton4, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 220, -1, 40));
+
+        jButton5.setFont(new java.awt.Font("Javanese Text", 0, 14)); // NOI18N
+        jButton5.setText("Atualizações");
+        getContentPane().add(jButton5, new org.netbeans.lib.awtextra.AbsoluteConstraints(370, 220, -1, 40));
+
+        FundoMenu.setIcon(new javax.swing.ImageIcon(getClass().getResource("/View/Imagens/Principal2.png"))); // NOI18N
+        getContentPane().add(FundoMenu, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 580, 488));
+
+        jMenu1Cadastro.setText("Cadastro");
+
+        jMenuItem1Perfil.setIcon(new javax.swing.ImageIcon(getClass().getResource("/View/Icons/cliente-icon.png"))); // NOI18N
+        jMenuItem1Perfil.setText("Perfil");
+        jMenuItem1Perfil.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenuItem1PerfilActionPerformed(evt);
+            }
+        });
+        jMenu1Cadastro.add(jMenuItem1Perfil);
+
+        jMenuBar1.add(jMenu1Cadastro);
+
+        jMenu2Baixar.setText("Baixar");
+        jMenuBar1.add(jMenu2Baixar);
+
+        setJMenuBar(jMenuBar1);
+
+        pack();
+    }// </editor-fold>                        
+
+    private void jMenuItem1PerfilActionPerformed(java.awt.event.ActionEvent evt) {                                                 
+        // TODO add your handling code here:
+    }                                                
+
+
+    public static void main(String args[]) {
+       
+        java.awt.EventQueue.invokeLater(new Runnable() {
+            public void run() {
+                new Principal().setVisible(true);
+            }
+        });
+    }
+
+    // Variables declaration - do not modify                     
+    private javax.swing.JLabel FundoMenu;
+    private javax.swing.JButton jButton1;
+    private javax.swing.JButton jButton2;
+    private javax.swing.JButton jButton3;
+    private javax.swing.JButton jButton4;
+    private javax.swing.JButton jButton5;
+    private javax.swing.JLabel jLabel2;
+    private javax.swing.JLabel jLabel3;
+    private javax.swing.JMenu jMenu1Cadastro;
+    private javax.swing.JMenu jMenu2Baixar;
+    private javax.swing.JMenuBar jMenuBar1;
+    private javax.swing.JMenuItem jMenuItem1Perfil;
+    // End of variables declaration                   
+}
